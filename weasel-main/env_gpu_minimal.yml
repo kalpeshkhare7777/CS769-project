@@ -1,0 +1,13 @@
+name: weasel
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python>=3.7
+  - pytorch-lightning=1.7.7
+  - pip:
+    - scikit-learn
+    - pyyaml
+
